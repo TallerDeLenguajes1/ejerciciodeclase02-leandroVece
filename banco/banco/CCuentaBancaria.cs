@@ -8,47 +8,57 @@ namespace banco
 {
     class CCuentaBancaria
     {
+
+        public CCuentaBancaria(string usuarios, double maxCaja,double ahorro)
+        {
+            this.Usuario = usuario;
+            this.MontoAhorrado = ahorro;
+            this.MontoMaxCaja = maxCaja;
+        }
+
+
         string usuario;
-        double ahorrosPesos =10000;
-        double ahorroDolares =3000;
-        double cajaAorrosPeso = 0;
+        double MontoMaxCaja;
+        double MontoAhorrado;
+        //double ahorrosPesos =10000;
+        //double ahorrosPesos = 10000;
+        //double ahorroDolares =3000;
+        //double cajaAorrosPeso = 0;
 
         public string Usuario { get => usuario; set => usuario = value; }
-        public double AhorrosPesos { get => ahorrosPesos; set => ahorrosPesos = value; }
-        public double AhorroDolares { get => ahorroDolares; set => ahorroDolares = value; }
-        public double CajaAorrosPeso { get => cajaAorrosPeso; set => cajaAorrosPeso = value; }
+        public double MontoMaxCaja1 { get => MontoMaxCaja; set => MontoMaxCaja = value; }
+        public double MontoAhorrado1 { get => MontoAhorrado; set => MontoAhorrado = value; }
 
-        public string CajeroAutoPesos(double monto)
+        /*public double AhorrosPesos { get => ahorrosPesos; set => ahorrosPesos = value; }
+        public double AhorroDolares { get => ahorroDolares; set => ahorroDolares = value; }
+        public double CajaAorrosPeso { get => cajaAorrosPeso; set => cajaAorrosPeso = value; }*/
+
+        public string Extracion(double monto)
         {
-            if (monto > 5000)
+            if (monto > MontoMaxCaja1)
             {
-                return "Limite de extraxion es 5000";
+                return "Limite de extraxion es " + MontoMaxCaja.ToString();
             }
-            if (monto> AhorrosPesos)
+            if (monto > MontoAhorrado1)
             {
                 return "El monto solicitado Exede su capital";
             }
             else
             {
-                AhorrosPesos -= monto;
+                MontoAhorrado1 -= monto;
             }
-            return "retirando " + monto.ToString() + "quedan " + ahorrosPesos.ToString(); 
+            return "retirando " + monto.ToString() + "quedan " + MontoAhorrado1.ToString(); 
         }
 
-        public string CajeroHumanoPesos(double monto)
+        public string Insercion(double monto)
         {
-            if (ahorrosPesos == 0)
-            {
-                return "No tiene saldo";
-            }
-            else
-            {
-                AhorrosPesos -= monto;
-            }
-            return "retirando " + monto.ToString() + "quedan " + ahorrosPesos.ToString();
+            MontoAhorrado1 += monto;
+            
+            return "se ha agregado " + monto.ToString() + " su cuenta tiene " + MontoAhorrado1.ToString();
         }
 
 
+        /*
         public string CajeroAutoDolar(double monto)
         {
             if (monto > 200)
@@ -96,6 +106,19 @@ namespace banco
             return "retirando " + monto.ToString() + "quedan " + ahorrosPesos.ToString();
         }
 
+        public string CajaAhorroPeso(double monto)
+        {
+            if (AhorrosPesos == 0)
+            {
+                return "No tiene saldo";
+            }
+            else
+            {
+                AhorrosPesos -= monto;
+            }
+            return "retirando " + monto.ToString() + "quedan " + AhorroDolares.ToString();
+        }
+        */
 
     }
 }

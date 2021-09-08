@@ -1,0 +1,16 @@
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\bin\Debug\net5.0\banco.exe
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\bin\Debug\net5.0\banco.deps.json
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\bin\Debug\net5.0\banco.runtimeconfig.json
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\bin\Debug\net5.0\banco.runtimeconfig.dev.json
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\bin\Debug\net5.0\banco.dll
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\bin\Debug\net5.0\ref\banco.dll
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\bin\Debug\net5.0\banco.pdb
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\obj\Debug\net5.0\banco.csproj.AssemblyReference.cache
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\obj\Debug\net5.0\banco.GeneratedMSBuildEditorConfig.editorconfig
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\obj\Debug\net5.0\banco.AssemblyInfoInputs.cache
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\obj\Debug\net5.0\banco.AssemblyInfo.cs
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\obj\Debug\net5.0\banco.csproj.CoreCompileInputs.cache
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\obj\Debug\net5.0\banco.dll
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\obj\Debug\net5.0\ref\banco.dll
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\obj\Debug\net5.0\banco.pdb
+D:\taller2\ejerciciodeclase02-leandroVece\banco\banco\obj\Debug\net5.0\banco.genruntimeconfig.cache

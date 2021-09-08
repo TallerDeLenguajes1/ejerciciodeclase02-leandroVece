@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace banco
 {
-    class CCuentaPesos : CCuentaBancaria
+    class CCuentaAhorroP :CCuentaBancaria
     {
-        public CCuentaPesos(string ususario, double MaxCaja, double ahorro) : base(ususario, MaxCaja, ahorro)
+        public CCuentaAhorroP(string ususario, double MaxCaja, double ahorro) : base(ususario, MaxCaja, ahorro)
         {
             this.Usuario = ususario;
             this.MontoMaxCaja1 = MaxCaja;
